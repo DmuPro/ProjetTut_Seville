@@ -1,0 +1,82 @@
+
+.display-7 {
+font-size: 18px ;
+color: #fff ;
+}
+
+h5 {
+    font-size: 30px !important;
+    text-align:center;
+    font-family:"Dyno Regular" !important;
+}
+.card-wrapper {
+background-color:#505050 !important;
+padding:20px;
+margin-bottom:30px !important;
+height: 100%;
+}
+body {
+color:white !important;
+}
+.card {
+width:30% !important;
+}
+.card-box {
+text-align:center;
+}
+.far,.fas {
+ margin-right:10px;
+}
+.techno {
+text-align:center;
+}
+.fa-linkedin-square {
+font-size:30px !important;
+position: relative;
+margin-bottom:5px;
+}
+
+.techno .fas,.fab {
+color:#ea5c0d  !important;
+margin:0 4%;
+font-size:45px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,1);
+}
+.flip-card-inner img {
+  width: 100%;
+}
+.flip-card:hover  {
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover {
+  transform: rotateZ(360deg) ;
+}
+
+@media (min-width: 992px) {
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.fa-linkedin-square{
+position:absolute;
+bottom:0px;
+font-size:30px !important;
+transform: translate(-50%, -50%);
+}
+}

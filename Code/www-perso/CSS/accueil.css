@@ -1,0 +1,39 @@
+/* Style CSS de la page d'accueil */
+
+.display-7 {
+font-size: 18px !important;
+color: #fff ;
+}
+
+.textArticle{
+max-height:210px !important;
+overflow:hidden !important;
+text-align:justify !important;
+}
+.card-box a {
+margin-top:20px !important;
+margin-left:5px;
+}
+.card-wrapper {
+border-color:#f7af3e !important;
+border-style:solid !important;
+padding:3px;
+margin-bottom:30px !important;
+}
+
+.card-img img {
+width:100%!important;
+}
+.item img{
+width:auto!important;
+max-height:40em!important;
+margin-left:auto!important;
+margin-right:auto!important;
+}
+
+h6 {
+    background-image:url("../image/pattern.png");
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position: center;
+}

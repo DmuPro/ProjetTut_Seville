@@ -1,0 +1,39 @@
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    padding-bottom: 0;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-block p{
+    color:white!important;
+    overflow:overflow-wrap;
+}
+.col-sm-5{
+    width: auto!important;
+    text-align: center!important;
+}
+.voyageur{
+    margin-bottom:25px;
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.imgvoyageur {
+max-width:200px;
+height:auto;
+}
+.content {
+margin: 0 10%;
+ }

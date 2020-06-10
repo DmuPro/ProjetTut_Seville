@@ -1,0 +1,22 @@
+.card {
+box-shadow: 0 1px 3px 0 #F8B03E, 0 0 0 1px #F8B03E !important;
+}
+
+.card:hover {
+background-color:#505050;   
+}
+@media (min-width: 767px) {
+    .col-sm-5 {
+        transform: translateY(20%);
+    }
+}
+@media (min-width: 857px) {
+.imgvoyageur {
+max-width:250px!important;
+}
+}
+@media(max-width: 767px) { 
+.imgvoyageur {
+max-width:230px!important;
+}
+}

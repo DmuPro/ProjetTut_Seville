@@ -1,0 +1,18 @@
+.content {
+margin: 0 10%;
+ }
+.caption p{
+color:white;
+}
+.thumbnail a{
+text-decoration:none;
+}
+.thumbnail {
+background-color:#505050 !important;
+border-color:#505050 !important;
+}
+
+.src {
+font-size:10px;
+margin-bottom:0px;
+}
